@@ -1,26 +1,89 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #5865F2;
+  --foreground: #fff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.code-of-conduct {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.code-of-conduct h1:first-child {
+  margin-top: 0;
+}
+
+.code-of-conduct h1,
+.code-of-conduct h2,
+.code-of-conduct h3 {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+.code-of-conduct h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--foreground);
+  padding-bottom: 0.5rem;
+}
+
+.code-of-conduct h2 {
+  font-size: 1.75rem;
+  border-bottom: 1px solid var(--foreground);
+  padding-bottom: 0.3rem;
+}
+
+.code-of-conduct h3 {
+  font-size: 1.5rem;
+}
+
+.code-of-conduct p {
+  margin-bottom: 1rem;
+}
+
+.code-of-conduct a {
+  color: #90cdf4;
+  text-decoration: underline;
+}
+
+.code-of-conduct ul,
+.code-of-conduct ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  list-style-type: disc; /* Ensures bullet points are displayed */
+}
+
+.code-of-conduct li {
+  margin-bottom: 0.5rem;
+}
+
+.code-of-conduct blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-left: 4px solid #90cdf4;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-style: italic;
+}
+
+.code-of-conduct pre {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.code-of-conduct code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  font-family: "Courier New", Courier, monospace;
 }
