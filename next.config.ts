@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/neurodivergent-techies',
 }
 
 export default nextConfig;
