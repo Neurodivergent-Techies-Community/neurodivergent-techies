@@ -14,7 +14,7 @@ export default function Home() {
       <main className="flex flex-col row-start-2 items-center justify-center">
         
         <Link href="/"><Image
-          src="/logo.jpg"
+          src="/neurodivergent-techies/logo.jpg"
           alt="Neurodivergent techies"
           width={200}
           height={38}
