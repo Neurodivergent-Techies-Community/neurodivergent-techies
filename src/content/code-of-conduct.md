@@ -1,6 +1,7 @@
 # Code of conduct
 
-Welcome to our Neurodiversity Techies Discord Server! This is a safe space for neurodivergent people in tech to connect, share, and support each other. Your community admins are Parul Singh, Callum Fraser and Jonathan Fielding. By being a member of this community, you agree to the following guidelines:
+Welcome to our Neurodiversity Techies Discord Server! This is a safe space for neurodivergent people in tech to connect, share, and support each other. Your community admins are Parul Singh, Callum Fraser, Maya McCutcheon and Jonathan Fielding. By being a member of this community, you agree to the following guidelines:
+
 
 ### **Trust and Inclusivity:**
 
