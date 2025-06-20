@@ -20,7 +20,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Site built and designed by Jonathan Fielding
+            Site built and designed by Jonathan Fielding and Parul Singh
           </a>
         </li>
       </ul>
